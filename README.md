@@ -2,6 +2,7 @@ DES
 ===
 More details can be found inside of the programs.
 
+-------------------------------------------------------------------------------
 For SEEP protocol, the programs follow the following steps:
 (A: client, B: server)
 
