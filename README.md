@@ -1,5 +1,12 @@
 DES
 ===
+Use the following command to run the codes:
+$ gcc -DLTM_DESC -o seep_client seep_client.c -ltomcrypt
+$ gcc -DLTM_DESC -o seep_server seep_server.c -ltomcrypt
+$ gcc -DLTM_DESC -o ssl_client ssl_client.c -ltomcrypt
+$ gcc -DLTM_DESC -o ssl_server ssl_server.c -ltomcrypt
+
+
 More details can be found inside of the programs.
 
 -------------------------------------------------------------------------------
