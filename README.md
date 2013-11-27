@@ -28,6 +28,8 @@ For SEEP protocol, the programs follow the following steps:
 10B: Server receives data from A, checks OK field, decodes data, and displays data to user.
 
 
+
+
 For SSL Protocol, the programs follow the following steps:
 (A: Client, B: Server)
 
@@ -58,6 +60,9 @@ For SSL Protocol, the programs follow the following steps:
 Now handshake steps finish, and user can input something from the client, and the client encrypts the data and then sends them to the server.
 
 The server receives the encrypted data and the hmac value, then checks the correctness of hmac, and at last displays the data.
+
+
+
 
 About the comparison of the security, complexity and performance.
 
