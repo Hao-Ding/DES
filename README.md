@@ -1,5 +1,12 @@
 DES
 ===
+
+#### Summary
+
+This project is based on [LibTomCrypt](http://libtom.org/?page=features) library, and implements SSL and SEEP protocols at last.
+
+#### How to run the code
+
 Use the following command to run the codes:
 
 $ gcc -DLTM_DESC -o seep_client seep_client.c -ltomcrypt
@@ -71,9 +78,3 @@ For SSL Protocol, the programs follow the following steps:
 Now handshake steps finish, and user can input something from the client, and the client encrypts the data and then sends them to the server.
 
 The server receives the encrypted data and the hmac value, then checks the correctness of hmac, and at last displays the data.
-
------------------------------------------------------------------
-
-About the comparison of the security, complexity and performance.
-
-No good way to do this job. "time" command cannot work, since the total time of the programs depends on my data input speed, not the pure time of running the codes.
